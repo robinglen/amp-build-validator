@@ -32,4 +32,6 @@ const validator = {
 
 }
 
+validator.init(process.env.url);
+
 exports.module = validator;
