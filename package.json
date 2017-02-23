@@ -1,0 +1,25 @@
+{
+  "name": "amp-build-validator",
+  "version": "1.0.0",
+  "description": "amp day hack for build validator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thearegee/amp-build-validator.git"
+  },
+  "author": "Robin Glen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thearegee/amp-build-validator/issues"
+  },
+  "homepage": "https://github.com/thearegee/amp-build-validator#readme",
+  "dependencies": {
+    "amphtml-validator": "^1.0.19",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
